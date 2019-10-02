@@ -317,4 +317,16 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libtinycompress_vendor
+LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libtinycompress_vendor.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libtinycompress_vendor.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
 endif
