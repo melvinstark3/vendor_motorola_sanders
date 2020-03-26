@@ -860,7 +860,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_touch.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_touch.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_vibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_vibrator.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mmi_wifi.so:$(TARGET_COPY_OUT_VENDOR)/lib/mmi_wifi.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
+    vendor/motorola/sanders/proprietary/vendor/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko \
     vendor/motorola/sanders/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.iio.so \
     vendor/motorola/sanders/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so \
